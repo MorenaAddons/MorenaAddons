@@ -1,0 +1,18 @@
+/* 
+Basic 
+*/
+
+.morena-slider-basic {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    transition: all 0.3s linear;
+}
+.morena-slider-basic img {
+    opacity: 0.7;
+    transition: all 0.3s linear;
+}
+
+.morena-slider-basic img:hover {
+    opacity: 1;
+}

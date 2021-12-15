@@ -1,0 +1,15 @@
+/*
+ Royal slider
+*/
+.morena-slider-royal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    transition: all 0.3s linear;
+}
+
+.morena-slider-royal img {
+    margin: 1rem;
+    padding: 0.3rem;
+    border: 1px solid black;
+}
